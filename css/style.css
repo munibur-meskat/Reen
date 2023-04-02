@@ -1,0 +1,501 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul,
+ol {
+    list-style-type: none;
+}
+
+.clr {
+    clear: both;
+}
+
+.mr {
+    margin-right: 0 !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+    padding: 0;
+    line-height: 0.8;
+}
+
+.full_wrapper {
+    width: 100%;
+    background: #ffffff;
+}
+
+.wrapper {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+/* All Common CSS End  */
+
+.header {
+    height: 112px;
+    background: #fff;
+}
+
+.logo {
+    width: 215px;
+    text-align: center;
+    padding-top: 35px;
+    float: left;
+}
+
+.menu {
+    width: 985px;
+    text-align: right;
+    line-height: 112px;
+    float: right;
+}
+
+.menu ul li {
+    display: inline-block;
+    padding-left: 40px;
+}
+
+.menu ul li a {
+    font-size: 15px;
+    font-weight: 700;
+    color: #506a85;
+    font-family: 'Source Sans Pro', sans-serif;
+    text-transform: uppercase;
+}
+
+/* Banner Part Start */
+
+.banner {
+    padding-top: 300px;
+    padding-bottom: 300px;
+    background: url(../images/Banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.banner_text {
+    text-align: center;
+
+}
+
+.banner_text h3 {
+    font-size: 100px;
+    font-weight: 900;
+    color: #fff;
+    font-family: 'Source Sans Pro', sans-serif;
+    text-transform: uppercase;
+}
+
+.banner_text p {
+    margin-top: 30px;
+    margin-bottom: 65px;
+    font-size: 28px;
+    font-weight: 300;
+    color: #d5d5d5;
+    line-height: 33px;
+    font-family: 'Source Serif Pro', serif;
+}
+
+.banner_btn {
+    text-align: center;
+}
+
+.banner_btn a {
+    padding: 25px 70px;
+    border: 1px solid #00bc9c;
+    display: inline-block;
+    font-size: 18px;
+    font-weight: 700;
+    background: #00bc9c;
+    color: #fff;
+    font-family: 'Source Sans Pro', sans-serif;
+    text-transform: uppercase;
+}
+
+/* Banner Part End */
+
+/* Beauty Part Start */
+.beauty {
+    padding-top: 130px;
+    padding-bottom: 130px;
+    background: #ffffff;
+}
+
+.beauty_text {
+    text-align: center;
+}
+
+.beauty_text h3 {
+    font-size: 30px;
+    font-weight: 400;
+    color: #506a85;
+    font-family: 'Source Sans Pro', sans-serif;
+    text-transform: uppercase;
+}
+
+.beauty_text p {
+    padding-top: 40px;
+    padding-bottom: 80px;
+    font-size: 35px;
+    font-weight: 300;
+    color: #73879c;
+    line-height: 40px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.passion {
+    float: left;
+    box-sizing: border-box;
+    margin-right: 30px;
+}
+
+.passion_img {
+    width: 65px;
+    text-align: left;
+    float: left;
+    padding-right: 30px;
+}
+
+.passion_text {
+    width: 285px;
+    float: left;
+}
+
+.passion_text h3 {
+    padding-bottom: 30px;
+    font-size: 30px;
+    font-weight: 600;
+    color: #506a85;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.passion_text p {
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 400;
+    color: #73879c;
+    line-height: 24px;
+    font-family: 'Source Serif Pro', serif;
+}
+
+/* Beauty Part End */
+
+/* Project Part Strat */
+
+.project {
+    padding-top: 125px;
+    padding-bottom: 135px;
+    background: #f2f5f7;
+}
+
+.project_text {
+    text-align: center;
+}
+
+.project_text h3 {
+    font-size: 45px;
+    font-weight: 600;
+    color: #506a85;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.project_text p {
+    display: inline-block;
+    padding-top: 35px;
+    padding-bottom: 75px;
+    font-size: 22px;
+    font-weight: 400;
+    color: #73879c;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.main {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.work_item {
+    width: 568px;
+    border: 1px solid #e6e9ed;
+    padding-bottom: 30px;
+    margin-right: 30px;
+    margin-bottom: 70px;
+    background: #ffffff;
+    float: left;
+    box-sizing: border-box;
+}
+
+.work_img img {
+    width: 100%;
+}
+
+.work_text {
+    text-align: center;
+}
+
+.work_text h3 {
+    padding-top: 35px;
+    padding-bottom: 13px;
+    font-size: 22px;
+    font-weight: 600;
+    color: #506a85;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.work_text p {
+    font-size: 14px;
+    font-weight: 400;
+    color: #73879c;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.main_bottom {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.last_item {
+    width: 270px;
+    margin-right: 30px;
+    float: left;
+    box-sizing: border-box;
+}
+
+.item_img img {
+    width: 100%;
+}
+
+/* Project Part End */
+
+
+/* Touch Part Start */
+.touch {
+    padding-top: 120px;
+    padding-bottom: 120px;
+    background: #ffffff;
+}
+
+.touch_text {
+    text-align: center;
+}
+
+.touch_text h3 {
+    font-size: 45px;
+    font-weight: 700;
+    color: #506a85;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.touch_text p {
+    display: inline-block;
+    padding-top: 40px;
+    padding-bottom: 45px;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 44px;
+    color: #73879c;
+    font-family: 'Source Serif Pro', serif;
+}
+
+.touch_btn {
+    text-align: center;
+
+}
+
+.touch_btn a {
+    width: 150px;
+    padding: 20px 25px;
+    border: 1px solid #00bc9c;
+    display: inline-block;
+    font-size: 18px;
+    font-weight: 700;
+    background: #00bc9c;
+    color: #fff;
+    font-family: 'Source Sans Pro', sans-serif;
+    text-transform: uppercase;
+}
+
+/* Touch Part End */
+
+/* Reen Part Start */
+
+.Second_last {
+    padding-top: 70px;
+    padding-bottom: 75px;
+    background: #2f4052;
+}
+
+.main_reen {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.who {
+    width: 270px;
+    margin-right: 30px;
+    float: left;
+}
+
+.who_text h3 {
+    color: #fff;
+    font-size: 21px;
+    font-weight: 700;
+    font-family: 'Source Sans Pro', sans-serif;
+    text-transform: uppercase;
+}
+
+.who_text img {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #fff;
+}
+
+.who_text p {
+    color: rgba(255, 255, 255, 0.582);
+    line-height: 23px;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Source Serif Pro', serif;
+    padding-bottom: 20px;
+}
+
+.who_text h4 {
+    color: rgba(255, 255, 255, 0.582);
+    font-size: 16px;
+    font-weight: 700;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.who_text h4 i {
+    padding-left: 5px;
+}
+
+.who_secnd {
+    width: 270px;
+    margin-right: 30px;
+    float: left;
+}
+
+.latest h3 {
+    color: #fff;
+    font-size: 21px;
+    font-weight: 700;
+    font-family: 'Source Sans Pro', sans-serif;
+    text-transform: uppercase;
+    padding-bottom: 25px;
+}
+.who_thrd {
+    width: 270px;
+    margin-right: 30px;
+    float: left;
+}
+
+.get h3 {
+    color: #fff;
+    font-size: 21px;
+    font-weight: 700;
+    font-family: 'Source Sans Pro', sans-serif;
+    text-transform: uppercase;
+    padding-bottom: 20px;
+}
+
+.get p {
+    padding-bottom: 20px;
+    color: rgba(255, 255, 255, 0.582);
+    line-height: 23px;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Source Serif Pro', serif;
+}
+.get ul li{
+    display: inline-block;
+    color: rgba(255, 255, 255, 0.582);
+}
+.get ul li p{
+    padding-left: 5px;
+}
+
+.who_four {
+    width: 270px;
+    float: left;
+}
+
+.free h3 {
+    color: #fff;
+    font-size: 21px;
+    font-weight: 700;
+    font-family: 'Source Sans Pro', sans-serif;
+    text-transform: uppercase;
+    padding-bottom: 25px;
+}
+
+.free p {
+    color: rgba(255, 255, 255, 0.582);
+    line-height: 23px;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Source Serif Pro', serif;
+}
+
+.email {
+    padding-top: 15px;
+}
+
+.email input {
+    height: 40px;
+    width: 270px;
+    background: #4e5c6c;
+    border: 1px solid #00bc9c;
+
+}
+
+.email form{
+    position: relative;
+}
+
+.email form .email_btn{
+   position: absolute;
+   right: -2px;
+   top: 50%;
+   transform:translateY(-50%);
+   -webkit-transform:translateY(-50%);
+   -moz-transform:translateY(-50%);
+   -ms-transform:translateY(-50%);
+   -o-transform:translateY(-50%);
+}
+
+.email_btn{
+    cursor: pointer;
+    letter-spacing: 1.5px;
+    padding: 8px 5px;
+    border: 1px solid #00bc9c;
+    display: inline-block;
+    font-size: 18px;
+    font-weight: 700;
+    background: #00bc9c;
+    color: #fff;
+    font-family: 'Source Sans Pro', sans-serif;
+    text-transform: uppercase;
+}
+
+
+/* Reen Part End */
+
+/* Project Part Strat */
+
+/* Project Part End */
